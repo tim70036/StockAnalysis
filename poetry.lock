@@ -371,6 +371,14 @@ version = "8.5.0"
 
 [[package]]
 category = "main"
+description = "Python library for arbitrary-precision floating-point arithmetic"
+name = "mpmath"
+optional = false
+python-versions = "*"
+version = "1.1.0"
+
+[[package]]
+category = "main"
 description = "Non-blocking Python methods using decorators"
 name = "multitasking"
 optional = false
@@ -770,6 +778,17 @@ version = "1.15.0"
 
 [[package]]
 category = "main"
+description = "Computer algebra system (CAS) in Python"
+name = "sympy"
+optional = false
+python-versions = ">=3.5"
+version = "1.6.2"
+
+[package.dependencies]
+mpmath = ">=0.19"
+
+[[package]]
+category = "main"
 description = "Terminals served to xterm.js using Tornado websockets"
 name = "terminado"
 optional = false
@@ -869,7 +888,7 @@ pandas = ">=0.24"
 requests = ">=2.20"
 
 [metadata]
-content-hash = "c640e032406999a585da66beeafda3b0331c120a5612d27a51c2198c91eb4574"
+content-hash = "5f6a4ebe2965adce986377533e7422881d25bd529dc823306234e6f36abd7f33"
 lock-version = "1.0"
 python-versions = "^3.8"
 
@@ -1073,6 +1092,9 @@ mistune = [
 more-itertools = [
     {file = "more-itertools-8.5.0.tar.gz", hash = "sha256:6f83822ae94818eae2612063a5101a7311e68ae8002005b5e05f03fd74a86a20"},
     {file = "more_itertools-8.5.0-py3-none-any.whl", hash = "sha256:9b30f12df9393f0d28af9210ff8efe48d10c94f73e5daf886f10c4b0b0b4f03c"},
+]
+mpmath = [
+    {file = "mpmath-1.1.0.tar.gz", hash = "sha256:fc17abe05fbab3382b61a123c398508183406fa132e0223874578e20946499f6"},
 ]
 multitasking = [
     {file = "multitasking-0.0.9.tar.gz", hash = "sha256:b59d99f709d2e17d60ccaa2be09771b6e9ed9391c63f083c0701e724f624d2e0"},
@@ -1284,6 +1306,10 @@ send2trash = [
 six = [
     {file = "six-1.15.0-py2.py3-none-any.whl", hash = "sha256:8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced"},
     {file = "six-1.15.0.tar.gz", hash = "sha256:30639c035cdb23534cd4aa2dd52c3bf48f06e5f4a941509c8bafd8ce11080259"},
+]
+sympy = [
+    {file = "sympy-1.6.2-py3-none-any.whl", hash = "sha256:0f6c5724a999eca02f4b453260b0c7151d6fa076313f441274db98bbf97ba8cd"},
+    {file = "sympy-1.6.2.tar.gz", hash = "sha256:1cfadcc80506e4b793f5b088558ca1fcbeaec24cd6fc86f1fdccaa3ee1d48708"},
 ]
 terminado = [
     {file = "terminado-0.9.0-py3-none-any.whl", hash = "sha256:e0eaea25d978d9a8d557f63ef23b0ec81a2f9e22b9dabfe5db4a79d8d38dd7c2"},
