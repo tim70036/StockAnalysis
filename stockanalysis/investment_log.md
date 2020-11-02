@@ -196,3 +196,60 @@ XOP    mean: -1.002324%  std: 15.421022%  sharp: -0.064997
 - Compare these 2 set of data, we can see that leveraged stat has almost 4x expected return and standard deviation than normal stats. It's not exactly 4x due to the borrowing cost. The borrowing cost also cause the leveraged investment to have worse sharp ratio than normal one.
 
 - After examining these results, I decide to choose CLOU. This is because it has better sharp ratio compare to SP500 and has the best among all non-bond ETFs. Also, CLOU invest in companies positioned to benefit from the increased adoption of cloud computing technology, including companies whose principal business is in offering computing Software-as-a-Service (SaaS), Platform-as-a-Service (PaaS), Infrastructure-as-a-Service (IaaS), managed server storage space and data center real estate investment trusts, and/or cloud and edge computing infrastructure and hardware. After COVID crash, CLOU has benefit from the remote working trend and the digitalize trend all over the world. As a result, I believe CLOU is a good investment and I use leveraged investment to get a mega boost.
+
+## Small Cap
+
+- I choosed some ETFs on the small cap list and get the following data:
+```
+Getting data 2010-08-31 00:00:00 -> 2020-10-18 00:00:00
+^GSPC VBK VBR IJH SCHA IWO IJJ SPMD XMLV SLY 
+Sorted by sharp ratio:
+^GSPC  mean: 0.047055%  std: 1.096562%  sharp: 0.041709
+VBK    mean: 0.056642%  std: 1.323329%  sharp: 0.040658
+IWO    mean: 0.053971%  std: 1.409595%  sharp: 0.035599
+IJH    mean: 0.045780%  std: 1.272892%  sharp: 0.034092
+SCHA   mean: 0.046093%  std: 1.343458%  sharp: 0.032211
+XMLV   mean: 0.036407%  std: 1.071656%  sharp: 0.031436
+SLY    mean: 0.045812%  std: 1.355165%  sharp: 0.030397
+VBR    mean: 0.039676%  std: 1.321365%  sharp: 0.028173
+IJJ    mean: 0.039144%  std: 1.328737%  sharp: 0.027817
+SPMD   mean: 0.020331%  std: 1.307305%  sharp: 0.013215
+---------------------------------------------------------
+
+Getting data 2020-04-09 00:00:00 -> 2020-10-18 00:00:00
+^GSPC VBK VBR IJH SCHA IWO IJJ SPMD XMLV SLY 
+Sorted by sharp ratio:
+VBK    mean: 0.286212%  std: 1.616716%  sharp: 0.176764
+IWO    mean: 0.287931%  std: 1.850204%  sharp: 0.155386
+^GSPC  mean: 0.177844%  std: 1.378049%  sharp: 0.128740
+SCHA   mean: 0.245789%  std: 1.974191%  sharp: 0.124281
+IJH    mean: 0.203337%  std: 1.857329%  sharp: 0.109243
+SPMD   mean: 0.202346%  std: 1.861854%  sharp: 0.108446
+SLY    mean: 0.208531%  std: 2.247893%  sharp: 0.092574
+VBR    mean: 0.191616%  std: 2.165853%  sharp: 0.088270
+IJJ    mean: 0.169288%  std: 2.183945%  sharp: 0.077316
+XMLV   mean: 0.039679%  std: 1.571214%  sharp: 0.024977
+---------------------------------------------------------
+```
+
+- When computing, I choose 2 periods: past 10 year data and data after COVID crash. In past 10 years, small cap ETFs had worse sharp ratio than SP500 and only few of them have better expected return than SP500. However, after COVID crash, there were 2 ETFs standing out. We can see that VBK perform well in both periods. It even had better Sharp ratio than SP500 after COVID crash this year. As a result, I decide to long VBK in this week strategy.
+
+
+## Value investing
+- For SP500: PB ratio 3.437, PE ratio 26.65, Dividend yield 1.75%.
+
+- Among the large cap stocks, I choose Cisco Systems Inc CSCO. It has: PB ratio 4.32, PE ratio 14.7, Dividend yield 5.35%. CSCO has relative low PE ratio compare to SP500. This shows its price is undervalued given a good earning. Also, the dividend yield is quite high. On the other hand, PB ratio of CSCO is hihger than SP500. However, here I choose to look at PE and Dividend Yield, since I want to see how well the company peform (earning) instead of how healthy(asset) the company is.
+
+- One of my existing investment is Zoom ZM. It has: PB ratio 121.36, PE ratio 647.49, no dividend yield. We can see that the number is high and ZM is cleary overvalued compare to SP500 or CSCO. The high price is due to everyone expects it'll grow pretty fast in the near future. Thus, growth stock is very different from value stock such as CSCO.
+
+## Momentum Strategies
+- I choose [XOP, JKS, JETS, ZM, FB] as candidates. The period I observe starts after COVID crash 4/9/2020 to 10/31/2020. Here is the return for each candidate:
+```
+XOP: -0.7%
+JKS: 281.05%
+JETS: 10.59%
+ZM: 270.18%
+FB: 50.19%
+```
+
+- Given this, I decide to long JKS and short XOP. The differnece of return between these 2 assets is 281.75%.
