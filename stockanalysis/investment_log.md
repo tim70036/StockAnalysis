@@ -1,4 +1,4 @@
-## Index ETFs Sharp Ratio
+## Index ETFs Sharp Ratio (Week1)
 - The ETF I select is IBUY. It corresponds generally to the price performance of the EQM Online Retail Index. This Index is a basket of companies that obtain 70% or more of revenue from online or virtual sales. The expense ratio is 0.65%.
 
 - I set the time period of my analysis from 2020-4-9 to 2020-9-23. The reason I choose this period is that I want to see which stock has good performance after COVID crash. Then, I calculate sharp ratios from the stocks in my regular watchlist. The result shows that IBUY has the highest sharp ratio 0.312674 during this period. Also, the SP500 sharp ratio is 0.115277, so IBUY clearly outperform SP500 in this period.
@@ -17,7 +17,7 @@
     ...
     ```
 
-## Bond ETFs 
+## Bond ETFs (Week2)
 - In this analysis, I first chose some tickers from Bond ETFs that have best price changed in the past 3 months. In the end, I decide to choose CWB since it has good expected return and high Sharp ratio. This ETF seeks to provide investment results that, before fees and expenses, correspond generally to the price and yield performance of the Bloomberg Barclays US Convertible Liquid Bond Index. This index represent the market of U.S. convertible securities, such as convertible bonds. Here are some facts:
   - Gross Expense Ratio: 0.4%
   - Current Yield: 1.94%
@@ -62,7 +62,7 @@
 
 - In my opinion, I prefer 5 years data over 10 years. Since in recent years, stock and bond market showed increased volatility (especially after 2018). Under such unprecedented circumstances, it's better to use more recent data to reflect the performance of each asset.
 
-## Short Selling
+## Short Selling (Week3)
 - If I short a bond that means I think that interest rate might go up in the future. If I short a stock, that means I think that company will not do well in the future or the stock is in fomo buying now.
 
 - I gather the data from my watchlist, it contains ETFs from different sector and also ETFs in bond and agriculture. I set the time period of my analysis from 2020-4-9 to 2020-9-23. The reason I choose this period is that I want to see which stock has worst performance after COVID crash. Data from 10yrs long period might not give me enough insight on how COVID has changed the world. The result is shown below:
@@ -109,7 +109,7 @@ IYT    rolling_mean: 0.143020% rolling_neg_pct: 0.000000%
 - From looking at the result, I decide to short XLE, which has the highest negative percentage in all windows. Besides from the result, we all know that COVID has shut down the world. This also caused the demand for energy and oil declined significantly. Unless the vaccine come out, it's almost impoosible that the world will re-open and move the demand for energy back to normal. As a result, I think XLE is not gonna do well in the following months.
 
 
-## Leveraged
+## Leveraged (Week4)
 
 - I gather the data from my watchlist, it contains ETFs from different sector and also ETFs in bond and agriculture. The normal stats:
 ```
@@ -197,7 +197,7 @@ XOP    mean: -1.002324%  std: 15.421022%  sharp: -0.064997
 
 - After examining these results, I decide to choose CLOU. This is because it has better sharp ratio compare to SP500 and has the best among all non-bond ETFs. Also, CLOU invest in companies positioned to benefit from the increased adoption of cloud computing technology, including companies whose principal business is in offering computing Software-as-a-Service (SaaS), Platform-as-a-Service (PaaS), Infrastructure-as-a-Service (IaaS), managed server storage space and data center real estate investment trusts, and/or cloud and edge computing infrastructure and hardware. After COVID crash, CLOU has benefit from the remote working trend and the digitalize trend all over the world. As a result, I believe CLOU is a good investment and I use leveraged investment to get a mega boost.
 
-## Small Cap
+## Small Cap (Week5)
 
 - I choosed some ETFs on the small cap list and get the following data:
 ```
@@ -235,14 +235,16 @@ XMLV   mean: 0.039679%  std: 1.571214%  sharp: 0.024977
 - When computing, I choose 2 periods: past 10 year data and data after COVID crash. In past 10 years, small cap ETFs had worse sharp ratio than SP500 and only few of them have better expected return than SP500. However, after COVID crash, there were 2 ETFs standing out. We can see that VBK perform well in both periods. It even had better Sharp ratio than SP500 after COVID crash this year. As a result, I decide to long VBK in this week strategy.
 
 
-## Value investing
+## Value investing (Week6)
+
 - For SP500: PB ratio 3.437, PE ratio 26.65, Dividend yield 1.75%.
 
 - Among the large cap stocks, I choose Cisco Systems Inc CSCO. It has: PB ratio 4.32, PE ratio 14.7, Dividend yield 5.35%. CSCO has relative low PE ratio compare to SP500. This shows its price is undervalued given a good earning. Also, the dividend yield is quite high. On the other hand, PB ratio of CSCO is hihger than SP500. However, here I choose to look at PE and Dividend Yield, since I want to see how well the company peform (earning) instead of how healthy(asset) the company is.
 
 - One of my existing investment is Zoom ZM. It has: PB ratio 121.36, PE ratio 647.49, no dividend yield. We can see that the number is high and ZM is cleary overvalued compare to SP500 or CSCO. The high price is due to everyone expects it'll grow pretty fast in the near future. Thus, growth stock is very different from value stock such as CSCO.
 
-## Momentum Strategies
+## Momentum Strategies (Week7)
+
 - I choose [XOP, JKS, JETS, ZM, FB] as candidates. The period I observe starts after COVID crash 4/9/2020 to 10/31/2020. Here is the return for each candidate:
 ```
 XOP: -0.7%
@@ -253,3 +255,11 @@ FB: 50.19%
 ```
 
 - Given this, I decide to long JKS and short XOP. The differnece of return between these 2 assets is 281.75%.
+
+## Final
+
+- The week1 strategy gives the best performance. IBUY ETF gives me 11.19% of return. It has thr best sharp ratio among a list of ETFs compare to SP500 after COVID crash, and I think that's why it gives a good performance. I do think it's a superior strategy compare to other weeks strategy since I'm choosing ETFs from different industry. Instead of suffering more uncertainty from individual stocks, ETFs could give me less variance on return. Also, stock ETFs could give me more return than bond ETFs. Especially, the bond price right now is too high due to low interest rate. As a result, I think the ETF I choose should have a high probablity to give me the best result among all strategies.
+
+- The week3 strategy gives the worst performance (-14.58%). The reason why it does is because the vaccine news. Given that the whole world would shut down for a while, XLE has been performing really bad. After I short it, it did give me some positive return. However, it suddenly jumped up on 11/9 due to Pfizer vaccine news. Nevertheless, I still think the decision I made is correct. Just have to work on choosing better timing.
+
+- I learned a lot from these weekly project. I really enjoy crawling down market data and make some calculation on them. Also, the project gives me an idea how real world investing works.
